@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title> Cheeeeseeeee!!!</title>
+
+    <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    {% load staticfiles %}
+
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+  </head>
+
+  <body>
+
+    <div class="page-header">
+      <h1><a href="">Django Cheesee Blog</a></h1>
+    </div>
+    <hr/>
+    <div class="content">
+    {% block content %}
+    {% endblock %}
+  </div>
+  </body>
+</html>
